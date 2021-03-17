@@ -95,8 +95,8 @@ function App() {
     if(tasks.length > 0){
       setChosenTask(tasks[Math.floor(Math.random() * Math.floor(tasks.length))])
       setTimerRunning(true)
-      setTotalSecs(5)
-      //setTotalSecs(Math.floor(Math.random() * (3601 - 600) + 600))
+      //setTotalSecs(5)
+      setTotalSecs(Math.floor(Math.random() * (3601 - 600) + 600))
     }else {
       alert("Please enter a task first!")
     }
