@@ -1,0 +1,15 @@
+{
+  "short_name": "Task Randomizer",
+  "name": "Task Randomizer",
+  "icons": [
+    {
+      "src": "question.ico",
+      "sizes": "16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
